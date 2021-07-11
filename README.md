@@ -1,0 +1,3 @@
+- docker stack deploy --compose-file docker-compose.yml teststack
+- docker stack services teststack
+- docker service ps teststack_service1
